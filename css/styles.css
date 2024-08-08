@@ -98,11 +98,12 @@ line-height: 41px;
 	width:100%;
 }
 #services .circle{
-width:120px;
+width: 160px;
 height: 104px;
 display:inline-block;
 background: transparent;
 overflow:hidden;
+border-radius: 50%;
 }
 #services .circle:hover {
 	background:#FFF;	
@@ -226,15 +227,25 @@ left:0px;
 .flex-direction-nav .flex-next{ 
 right:0px;
 }
-.flex-caption {zoom: 1;
-bottom: 120px;  color: #fff; margin: 0; padding: 25px 25px 25px 30px; position: absolute; left: 0; background: transparent;margin: 0 auto;right: 0;}
-.flex-caption h3 {color: #fff; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase;font-size: 113px;font-weight: bolder;}
-.flex-caption p {margin: 0 0 15px;font-size: 20px !important;}	
-.flex-caption a{
+.flex-caption {
+	zoom: 1;
+	bottom: 120px;  
+	color: #fff; 
+	margin: 0; 
+	padding: 25px 25px 25px 30px; 
+	position: absolute; left: 0; 
+	background: transparent;
+	margin: 0 auto;
+	right: 0;
+}
+
+.flex-caption h3 { color: #fff; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase;font-size: 113px;font-weight: bolder;}
+.flex-caption p { margin: 0 0 15px;font-size: 20px !important;}	
+.flex-caption a {
     background: transparent !important;
     border: 1px solid #fff;
 }
-.flex-caption a:hover{
+.flex-caption a:hover {
     background: #fff !important;
     border: 1px solid #fff;
 	color:#000 !important;
@@ -470,7 +481,6 @@ text-align: center;
 	position: relative;
 	padding: 0px;
 	box-shadow: 0px 0px 1px rgba(0,0,0,0.4);
-	/*background: url("../images/banner-bg.jpg") no-repeat;*/
 	background-size: 100% 100%;
 	background-size: cover;
 	position: relative;
@@ -491,7 +501,7 @@ position: absolute;
 width: 100%;
 top: 0;
 bottom: 0;
-background: rgba(5, 193, 237, 0.72);
+background: rgba(5, 193, 237, 0.12);
 }
 .banner-container > img {
 	width: 100%;
